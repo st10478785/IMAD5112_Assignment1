@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF7F7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="338dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="11dp"
+        android:text="Answer"
+        android:textColor="#E95B21"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnSuggestion"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSuggestion"
+        android:layout_width="359dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#D71010"
+        android:text="Get Suggestion "
+        android:textColor="#F0EDED"
+        android:textColorLink="#FDFCFC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer"
+        app:strokeColor="#FBFBFB" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="357dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Reset"
+        android:textColor="#FBF8F8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuggestion" />
+
+    <TextView
+        android:id="@+id/txtOptions"
+        android:layout_width="338dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="21dp"
+        android:text="Time of day ( morning, mid-morning, afternoon, mid-afternoon or dinner )             Lower case"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edtTime"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMealPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="14dp"
+        android:text="Meal Picker"
+        android:textColor="#101010"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtOptions"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="338dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="#141414"
+        app:layout_constraintBottom_toTopOf="@+id/txtAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
