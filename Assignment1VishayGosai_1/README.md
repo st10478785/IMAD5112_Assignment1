@@ -33,12 +33,15 @@ Displays the suggestion in txtAnswer
 "Reset" Button:
 - Clears both the input field (edtTime)
 - Clears the answer display (txtAnswer)
+
+  
 The app provides a simple interface where users can:
-Enter a time of day
-Type time of day ( morning, afternoon etc ) 
-Press get suggestion
-2. You will get a meal suggestion based on that time
-3. Reset the button to clear the input and to start over
+1. Enter a time of day
+2. Type time of day ( morning, afternoon etc ) 
+3. Press get suggestion
+4. You will get a meal suggestion based on that time
+5. Reset the button to clear the input and to start over
+
 
 Graph using git hub read me file style 
 
