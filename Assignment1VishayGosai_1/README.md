@@ -13,14 +13,6 @@ txtAnswer (TextView for showing suggestions)
 btnSuggestion and btnReset (Buttons)
 
 
-
-
-
-
-
-
-
-
 Button Functionality:
 "Get Suggestion" Button:
 Gets text from edtTime input field
@@ -49,13 +41,14 @@ Press get suggestion
 3. Reset the button to clear the input and to start over
 
 Graph using git hub read me file style 
-Time of Day.      | Suggestion |
+
+Time of Day.        | Suggestion |
 | Morning           | Breakfast: Eggs and toast |
-| Mid-morning   | Snack: A fresh fruit |
-| Afternoon        | Lunch: A nice sandwich |
-| Mid-afternoon | Snack: A slice of cake |
-| Dinner             | Dinner: Pasta with your favourite sauce |
-| After dinner     | Dessert: Ice cream or chocolate |
+| Mid-morning       | Snack: A fresh fruit |
+| Afternoon         | Lunch: A nice sandwich |
+| Mid-afternoon     | Snack: A slice of cake |
+| Dinner            | Dinner: Pasta with your favourite sauce |
+| After dinner      | Dessert: Ice cream or chocolate |
 
 
 
@@ -65,11 +58,6 @@ YouTube link : https://youtu.be/QHHp-Z34Y28
 GitHub link : https://github.com/st10478785
 
 
-
-
-
-Code - home page (Meal Picker) : 
-MainActivity.kt
 
 
 package com.example.assignment1vishaygosai_1
