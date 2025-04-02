@@ -3,10 +3,10 @@
 
 Summary 
 
-This is a Kotlin code for an Android meal suggestion app.
+This is an application made using Android Studios, coded using Kotlin about a meal suggestion app.
 
  UI Element References:
-txtMealPicker (TextView for title)
+  txtMealPicker (TextView for title)
 txtOptions (TextView for instructions)
 edtTime (EditText for time input)
 txtAnswer (TextView for showing suggestions)
@@ -15,25 +15,32 @@ btnSuggestion and btnReset (Buttons)
 
 
 
-Button Functionality:
 
+
+
+
+
+
+Button Functionality:
 "Get Suggestion" Button:
-- Gets text from edtTime input field
-- Converts input to lowercase and removes whitespace
-- Uses if-else statements to match input with specific times:
-  * "morning" → "Breakfast: Eggs and toast"
-  * "mid-morning" → "Snack: A fresh fruit"
-  * "afternoon" → "Lunch: A nice sandwich"
-  * "mid-afternoon" → "Snack: A slice of cake"
-  * "dinner" → "Pasta with your favorite sauce"
-  * "after dinner" → "Dessert: Ice cream or chocolate"
-  * Invalid input → Error message
-- Displays the suggestion in txtAnswer
+Gets text from edtTime input field
+Converts input to lowercase and removes whitespace
+Uses if-else statements to match input with specific times:
+
+"morning" - "Breakfast: Eggs and toast"
+"mid-morning" - "Snack: A fresh fruit"
+ "afternoon" - "Lunch: A nice sandwich"
+ "mid-afternoon" - "Snack: A slice of cake"
+"dinner" - "Pasta with your favourite sauce"
+ "after dinner" - "Dessert: Ice cream or chocolate"
+Invalid input - Error message
+
+
+Displays the suggestion in txtAnswer
 
 "Reset" Button:
 - Clears both the input field (edtTime)
 - Clears the answer display (txtAnswer)
-
 The app provides a simple interface where users can:
 Enter a time of day
 Type time of day ( morning, afternoon etc ) 
@@ -41,15 +48,21 @@ Press get suggestion
 2. You will get a meal suggestion based on that time
 3. Reset the button to clear the input and to start over
 
-The code implements basic input validation and provides specific meal suggestions for different times of the day.
+Graph using git hub read me file style 
+Time of Day.      | Suggestion |
+| Morning           | Breakfast: Eggs and toast |
+| Mid-morning   | Snack: A fresh fruit |
+| Afternoon        | Lunch: A nice sandwich |
+| Mid-afternoon | Snack: A slice of cake |
+| Dinner             | Dinner: Pasta with your favourite sauce |
+| After dinner     | Dessert: Ice cream or chocolate |
+
 
 
 YouTube link : https://youtu.be/QHHp-Z34Y28
 
 
-
 GitHub link : https://github.com/st10478785
-
 
 
 
